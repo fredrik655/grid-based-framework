@@ -1,0 +1,22 @@
+{
+  "name": "grid-based-framework",
+  "version": "1.0.0",
+  "description": "--- The Odin Project --- assignment Design Your Own Grid-Based Framework, part 1 Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrik655/grid-based-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredrik655/grid-based-framework/issues"
+  },
+  "homepage": "https://github.com/fredrik655/grid-based-framework#readme",
+  "devDependencies": {
+    "sass": "^1.32.7"
+  }
+}

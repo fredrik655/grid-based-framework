@@ -1,0 +1,111 @@
+
+
+.border {
+  border: 1px solid $color-black;
+}
+
+.border-top {
+  border-top: 1px solid $color-black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $color-black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.bw-2 {
+  border-width: 2px;
+}
+
+.bw-3 {
+  border-width: 3px;
+}
+
+.bw-4 {
+  border-width: 4px;
+}
+
+.bc-blue {
+  border-color: $color-blue;
+}
+
+.bc-indigo {
+  border-color: $color-indigo;
+}
+
+.bc-purple {
+  border-color: $color-purple;
+}
+
+.bc-pink {
+  border-color: $color-pink;
+}
+
+.bc-red {
+  border-color: $color-red;
+}
+
+.bc-orange {
+  border-color: $color-orange;
+}
+
+.bc-yellow {
+  border-color: $color-yellow;
+}
+
+.bc-green {
+  border-color: $color-green;
+}
+
+.bc-teal {
+  border-color: $color-teal;
+}
+
+.bc-cyan {
+  border-color: $color-cyan;
+}
+
+.bc-gray {
+  border-color: $color-gray;
+}
+
+.bc-white {
+  border-color: $color-white;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.rounded-50 {
+  border-radius: 50%;
+}
+
+.rounded-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 10px 10px;
+}
+
+.rounded-tl {
+  border-radius: 10px 0 0 0;
+}
+
+.rounded-tr {
+  border-radius: 0 10px 0 0;
+}
+
+.rounded-br {
+  border-radius: 0 0 10px 0;
+}
+
+.rounded-bl {
+  border-radius: 0 0 0 10px;
+}
