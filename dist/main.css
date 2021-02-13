@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.bg-blue {
+  background-color: #0d6efd;
+}
+
+.bg-indigo {
+  background-color: #6610f2;
+}
+
+.bg-purple {
+  background-color: #6f42c1;
+}
+
+.bg-pink {
+  background-color: #d63384;
+}
+
+.bg-red {
+  background-color: #dc3545;
+}
+
+.bg-orange {
+  background-color: #fd7e14;
+}
+
+.bg-yellow {
+  background-color: #ffc107;
+}
+
+.bg-green {
+  background-color: #198754;
+}
+
+.bg-teal {
+  background-color: #20c997;
+}
+
+.bg-cyan {
+  background-color: #0dcaf0;
+}
+
+.bg-gray {
+  background-color: #adb5bd;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.border-top {
+  border-top: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.bw-2 {
+  border-width: 2px;
+}
+
+.bw-3 {
+  border-width: 3px;
+}
+
+.bw-4 {
+  border-width: 4px;
+}
+
+.bc-blue {
+  border-color: #0d6efd;
+}
+
+.bc-indigo {
+  border-color: #6610f2;
+}
+
+.bc-purple {
+  border-color: #6f42c1;
+}
+
+.bc-pink {
+  border-color: #d63384;
+}
+
+.bc-red {
+  border-color: #dc3545;
+}
+
+.bc-orange {
+  border-color: #fd7e14;
+}
+
+.bc-yellow {
+  border-color: #ffc107;
+}
+
+.bc-green {
+  border-color: #198754;
+}
+
+.bc-teal {
+  border-color: #20c997;
+}
+
+.bc-cyan {
+  border-color: #0dcaf0;
+}
+
+.bc-gray {
+  border-color: #adb5bd;
+}
+
+.bc-white {
+  border-color: white;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.rounded-50 {
+  border-radius: 50%;
+}
+
+.rounded-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 10px 10px;
+}
+
+.rounded-tl {
+  border-radius: 10px 0 0 0;
+}
+
+.rounded-tr {
+  border-radius: 0 10px 0 0;
+}
+
+.rounded-br {
+  border-radius: 0 0 10px 0;
+}
+
+.rounded-bl {
+  border-radius: 0 0 0 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.row * {
+  margin: 40px;
+  flex: 1 0 21%;
+}
+
+.col {
+  flex: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
