@@ -1,59 +1,65 @@
 @import 'reset';
 @import 'colors';
 @import 'borders';
+@import 'button';
 
 $lg: 1200px;
 $md: 768px;
 $sm: 576px;
 
-
-
 .container {
   max-width: 1200px;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 
-  @media screen and (max-width: $lg){
-    width: $lg - 60px;
+  @media screen and (max-width: $lg) {
+    grid-template-columns: repeat(8, 1fr);
   }
 
-  @media screen and (max-width: $md){
-    width: 100%;
+  @media screen and (max-width: $md) {
+    grid-template-columns: repeat(6, 1fr);
   }
 
+  @media screen and (max-width: $sm) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .container-fluid{
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 
-.row {
-  flex: 1;
+  @media screen and (max-width: $lg) {
+    grid-template-columns: repeat(8, 1fr);
+  }
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  @media screen and (max-width: $md) {
+    grid-template-columns: repeat(6, 1fr);
+  }
 
-  *{
-    margin: 40px;
-    flex: 1 0 21%;
+  @media screen and (max-width: $sm) {
+    grid-template-columns: 1fr;
   }
 }
 
-.col {
-  flex: 1;
+@for $i from 1 through 8 {
+  .gx-#{$i} {
+    column-gap: 0.2em * $i;
+  }
 }
 
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    grid-column: span $i;
+  }
+}
 
+.grid-end {
+  grid-column-end: 13;
+}
 
-
-
+.grid-start {
+  grid-column-start: 0;
+}
