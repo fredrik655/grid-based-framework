@@ -230,11 +230,6 @@ table {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-@media screen and (max-width: 1200px) {
-  .container {
-    grid-template-columns: repeat(8, 1fr);
-  }
-}
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(6, 1fr);
@@ -250,11 +245,6 @@ table {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-}
-@media screen and (max-width: 1200px) {
-  .container-fluid {
-    grid-template-columns: repeat(8, 1fr);
-  }
 }
 @media screen and (max-width: 768px) {
   .container-fluid {
@@ -302,49 +292,169 @@ table {
 .col-1 {
   grid-column: span 1;
 }
+@media screen and (max-width: 768px) {
+  .col-1 {
+    grid-column: span 1;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-1 {
+    grid-column: span 1;
+  }
+}
 
 .col-2 {
   grid-column: span 2;
+}
+@media screen and (max-width: 768px) {
+  .col-2 {
+    grid-column: span 1;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-2 {
+    grid-column: span 1;
+  }
 }
 
 .col-3 {
   grid-column: span 3;
 }
+@media screen and (max-width: 768px) {
+  .col-3 {
+    grid-column: span 2;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-3 {
+    grid-column: span 1;
+  }
+}
 
 .col-4 {
   grid-column: span 4;
+}
+@media screen and (max-width: 768px) {
+  .col-4 {
+    grid-column: span 2;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-4 {
+    grid-column: span 1;
+  }
 }
 
 .col-5 {
   grid-column: span 5;
 }
+@media screen and (max-width: 768px) {
+  .col-5 {
+    grid-column: span 3;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-5 {
+    grid-column: span 1;
+  }
+}
 
 .col-6 {
   grid-column: span 6;
+}
+@media screen and (max-width: 768px) {
+  .col-6 {
+    grid-column: span 3;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-6 {
+    grid-column: span 1;
+  }
 }
 
 .col-7 {
   grid-column: span 7;
 }
+@media screen and (max-width: 768px) {
+  .col-7 {
+    grid-column: span 4;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-7 {
+    grid-column: span 1;
+  }
+}
 
 .col-8 {
   grid-column: span 8;
+}
+@media screen and (max-width: 768px) {
+  .col-8 {
+    grid-column: span 4;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-8 {
+    grid-column: span 1;
+  }
 }
 
 .col-9 {
   grid-column: span 9;
 }
+@media screen and (max-width: 768px) {
+  .col-9 {
+    grid-column: span 5;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-9 {
+    grid-column: span 1;
+  }
+}
 
 .col-10 {
   grid-column: span 10;
+}
+@media screen and (max-width: 768px) {
+  .col-10 {
+    grid-column: span 5;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-10 {
+    grid-column: span 1;
+  }
 }
 
 .col-11 {
   grid-column: span 11;
 }
+@media screen and (max-width: 768px) {
+  .col-11 {
+    grid-column: span 6;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-11 {
+    grid-column: span 1;
+  }
+}
 
 .col-12 {
   grid-column: span 12;
+}
+@media screen and (max-width: 768px) {
+  .col-12 {
+    grid-column: span 6;
+  }
+}
+@media screen and (max-width: 576px) {
+  .col-12 {
+    grid-column: span 1;
+  }
 }
 
 .grid-end {

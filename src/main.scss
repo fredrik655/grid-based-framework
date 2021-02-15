@@ -13,10 +13,6 @@ $sm: 576px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 
-  @media screen and (max-width: $lg) {
-    grid-template-columns: repeat(8, 1fr);
-  }
-
   @media screen and (max-width: $md) {
     grid-template-columns: repeat(6, 1fr);
   }
@@ -30,10 +26,6 @@ $sm: 576px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-
-  @media screen and (max-width: $lg) {
-    grid-template-columns: repeat(8, 1fr);
-  }
 
   @media screen and (max-width: $md) {
     grid-template-columns: repeat(6, 1fr);
@@ -53,6 +45,14 @@ $sm: 576px;
 @for $i from 1 through 12 {
   .col-#{$i} {
     grid-column: span $i;
+
+    @media screen and (max-width: $md) {
+      grid-column: span round($i / 2);
+    }
+  
+    @media screen and (max-width: $sm) {
+      grid-column: span 1;
+    }
   }
 }
 
