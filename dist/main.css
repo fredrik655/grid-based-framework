@@ -465,4 +465,14 @@ table {
   grid-column-start: 0;
 }
 
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=main.css.map */

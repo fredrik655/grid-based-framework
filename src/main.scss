@@ -63,3 +63,13 @@ $sm: 576px;
 .grid-start {
   grid-column-start: 0;
 }
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
